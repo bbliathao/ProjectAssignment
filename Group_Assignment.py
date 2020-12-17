@@ -29,3 +29,44 @@ if the month is "October", then the astro sign is Libra.
 if the month is "November", then the astro sign is Scorpio.
     if the day is <22 then the result will be sagittarius.
 """
+
+"""
+if month = 'December'
+    then astro_sign = 'Satittarus'
+    if else day < 22 results ='Capricorn'
+if month = 'Januaray'
+    then astro_sign = 'Capricorn'
+    if else day < 20 results ='Aquarius'
+if month = 'Febuary'
+    then astro_sign = 'Satittarus'
+    if else day < 19 results ='Capricorn'
+if month = 'March'
+    then astro_sign = 'Satittarus'
+    if else day < 21 results ='Capricorn'
+if month = 'April'
+    then astro_sign = 'Satittarus'
+    if else day < 20 results ='Capricorn'
+if month = 'May'
+    then astro_sign = 'Satittarus'
+    if else day < 21 results ='Capricorn'
+if month = 'June'
+    then astro_sign = 'Satittarus'
+    if else day < 21 results ='Capricorn'
+if month = 'July'
+    then astro_sign = 'Satittarus'
+    if else day < 23 results ='Capricorn'
+if month = 'August'
+    then astro_sign = 'Satittarus'
+    if else day < 23 results ='Capricorn'
+if month = 'September'
+    then astro_sign = 'Satittarus'
+    if else day < 23 results ='Capricorn'
+if month = 'October'
+    then astro_sign = 'Satittarus'
+    if else day < 23 results ='Capricorn'
+if month = 'November'
+    then astro_sign = 'Satittarus'
+    if else day < 22 results ='Capricorn'
+
+Print 
+"""
