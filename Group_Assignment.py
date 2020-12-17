@@ -29,3 +29,91 @@ if the month is "October", then the astro sign is Libra.
 if the month is "November", then the astro sign is Scorpio.
     if the day is <22 then the result will be sagittarius.
 """
+
+"""
+if month = 'December'
+    then astro_sign = 'Satittarus'
+    if else day < 22 results ='Capricorn'
+if month = 'Januaray'
+    then astro_sign = 'Capricorn'
+    if else day < 20 results ='Aquarius'
+if month = 'Febuary'
+    then astro_sign = 'Satittarus'
+    if else day < 19 results ='Capricorn'
+if month = 'March'
+    then astro_sign = 'Satittarus'
+    if else day < 21 results ='Capricorn'
+if month = 'April'
+    then astro_sign = 'Satittarus'
+    if else day < 20 results ='Capricorn'
+if month = 'May'
+    then astro_sign = 'Satittarus'
+    if else day < 21 results ='Capricorn'
+if month = 'June'
+    then astro_sign = 'Satittarus'
+    if else day < 21 results ='Capricorn'
+if month = 'July'
+    then astro_sign = 'Satittarus'
+    if else day < 23 results ='Capricorn'
+if month = 'August'
+    then astro_sign = 'Satittarus'
+    if else day < 23 results ='Capricorn'
+if month = 'September'
+    then astro_sign = 'Satittarus'
+    if else day < 23 results ='Capricorn'
+if month = 'October'
+    then astro_sign = 'Satittarus'
+    if else day < 23 results ='Capricorn'
+if month = 'November'
+    then astro_sign = 'Satittarus'
+    if else day < 22 results ='Capricorn'
+
+Print 
+"""
+
+def zodiac_sign(day, month): 
+      
+    if month == 'december': 
+        astro_sign = 'Sagittarius' if (day < 22) else 'capricorn'
+          
+    elif month == 'january': 
+        astro_sign = 'Capricorn' if (day < 20) else 'aquarius'
+          
+    elif month == 'february': 
+        astro_sign = 'Aquarius' if (day < 19) else 'pisces'
+          
+    elif month == 'march': 
+        astro_sign = 'Pisces' if (day < 21) else 'aries'
+          
+    elif month == 'april': 
+        astro_sign = 'Aries' if (day < 20) else 'taurus'
+          
+    elif month == 'may': 
+        astro_sign = 'Taurus' if (day < 21) else 'gemini'
+          
+    elif month == 'june': 
+        astro_sign = 'Gemini' if (day < 21) else 'cancer'
+          
+    elif month == 'july': 
+        astro_sign = 'Cancer' if (day < 23) else 'leo'
+          
+    elif month == 'august': 
+        astro_sign = 'Leo' if (day < 23) else 'virgo'
+          
+    elif month == 'september': 
+        astro_sign = 'Virgo' if (day < 23) else 'libra'
+          
+    elif month == 'october': 
+        astro_sign = 'Libra' if (day < 23) else 'scorpio'
+          
+    elif month == 'november': 
+        astro_sign = 'scorpio' if (day < 22) else 'sagittarius'
+          
+    print(astro_sign) 
+      
+ 
+if __name__ == '__main__': 
+    day = 16
+    month = "october"
+    zodiac_sign(day , month) 
+
